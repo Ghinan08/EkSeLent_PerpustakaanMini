@@ -1,0 +1,92 @@
+{
+  "initialUsers": [
+    {
+      "id": "U1",
+      "nama": "Budi Santoso",
+      "email": "budi@gmail.com",
+      "password": "password123",
+      "role": "user",
+      "avatarInitials": "BS",
+      "genres": [
+        "Sastra & Novel",
+        "Teknologi & IT"
+      ]
+    },
+    {
+      "id": "U2",
+      "nama": "Rina Nuraini",
+      "email": "rina@gmail.com",
+      "password": "password123",
+      "role": "user",
+      "avatarInitials": "RN",
+      "genres": [
+        "Teknologi & IT",
+        "Sains"
+      ]
+    },
+    {
+      "id": "U3",
+      "nama": "Aditia Dharma",
+      "email": "aditia@gmail.com",
+      "password": "password123",
+      "role": "user",
+      "avatarInitials": "AD",
+      "genres": [
+        "Sastra & Novel",
+        "Sains",
+        "Bisnis"
+      ]
+    },
+    {
+      "id": "A1",
+      "nama": "Admin Perpus",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin",
+      "avatarInitials": "AP",
+      "genres": []
+    }
+  ],
+  "availableGenres": [
+    {
+      "id": "sastra-novel",
+      "nama": "Sastra & Novel",
+      "sub": "Novel, cerpen, antologi"
+    },
+    {
+      "id": "teknologi-it",
+      "nama": "Teknologi & IT",
+      "sub": "Koding, AI, database"
+    },
+    {
+      "id": "sains",
+      "nama": "Sains",
+      "sub": "Astronomi, biologi, bumi"
+    },
+    {
+      "id": "bisnis",
+      "nama": "Bisnis",
+      "sub": "Startup, investasi, manajemen"
+    },
+    {
+      "id": "sejarah",
+      "nama": "Sejarah",
+      "sub": "Nusantara, peradaban dunia"
+    },
+    {
+      "id": "self-improvement",
+      "nama": "Self-Improvement",
+      "sub": "Produktivitas, psikologi"
+    },
+    {
+      "id": "seni-desain",
+      "nama": "Seni & Desain",
+      "sub": "Estetika, arsitektur, grafis"
+    },
+    {
+      "id": "komik-remaja",
+      "nama": "Komik & Remaja",
+      "sub": "Cerita bergambar, fabel"
+    }
+  ]
+}
