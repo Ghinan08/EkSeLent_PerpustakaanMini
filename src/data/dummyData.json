@@ -219,6 +219,44 @@
       "sudahDiperpanjang": false
     }
   ],
+  "initialReviews": [
+    {
+      "id": 1,
+      "user_id": "U3",
+      "book_id": 3,
+      "peminjaman_id": "PJ-1005",
+      "rating": 5,
+      "komentar": "Alur ceritanya sangat menyentuh dan narasinya puitis sekali. Salah satu buku fiksi lokal terbaik yang pernah saya pinjam tahun ini!",
+      "tanggal": "2 hari yang lalu"
+    },
+    {
+      "id": 2,
+      "user_id": "U2",
+      "book_id": 1,
+      "peminjaman_id": null,
+      "rating": 4,
+      "komentar": "Karakter Arga dan Laras terasa sangat hidup. Kondisi buku fisik di perpustakaan juga masih sangat rapi dan mulus.",
+      "tanggal": "1 minggu yang lalu"
+    },
+    {
+      "id": 3,
+      "user_id": "U1",
+      "book_id": 1,
+      "peminjaman_id": null,
+      "rating": 5,
+      "komentar": "Buku yang wajib dibaca saat luang. Begitu mulai baca di perpustakaan tidak bisa berhenti sampai selesai.",
+      "tanggal": "2 minggu yang lalu"
+    },
+    {
+      "id": 4,
+      "user_id": "U3",
+      "book_id": 5,
+      "peminjaman_id": "PJ-1003",
+      "rating": 4,
+      "komentar": "Sangat membuka pikiran mengenai produktivitas dan ketenangan batin.",
+      "tanggal": "3 minggu yang lalu"
+    }
+  ],
   "initialEvents": [
     {
       "id": 1,
