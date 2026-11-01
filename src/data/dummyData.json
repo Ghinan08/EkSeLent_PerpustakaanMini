@@ -368,5 +368,13 @@
       "nama": "Komik & Remaja",
       "sub": "Cerita bergambar, fabel"
     }
+  ],
+    "bookCategories": [
+    "Semua Kategori",
+    "Sastra & Novel",
+    "Teknologi & IT",
+    "Sains",
+    "Bisnis",
+    "Sejarah"
   ]
 }
