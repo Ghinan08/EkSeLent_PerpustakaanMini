@@ -376,5 +376,14 @@
     "Sains",
     "Bisnis",
     "Sejarah"
+  ],
+
+  "eventCategories": [
+    "Temu Penulis",
+    "Workshop Literasi",
+    "Klub Buku Senja",
+    "Pelatihan Menulis",
+    "Seminar Literasi",
+    "Workshop Teknologi"
   ]
 }
