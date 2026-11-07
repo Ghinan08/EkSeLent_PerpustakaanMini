@@ -323,7 +323,7 @@ export default function App() {
           isAuth ? (
             <Navigate to={isAdmin ? '/admin/dashboard' : '/'} replace />
           ) : (
-            <Register onRegister={handleRegister} />
+            <Register users={users} onRegister={handleRegister} />
           )
         }
       />
