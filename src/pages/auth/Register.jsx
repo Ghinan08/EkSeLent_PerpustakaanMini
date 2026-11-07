@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { BookOpen, Eye, EyeOff, UserPlus, AlertCircle } from 'lucide-react';
 
-export default function Register({ onRegister }) {
+export default function Register({ users = [], onRegister }) {
   const [formData, setFormData] = useState({
     nama: '',
     email: '',
@@ -30,6 +30,15 @@ export default function Register({ onRegister }) {
 
     if (!formData.nama.trim()) {
       setError('Nama lengkap wajib diisi.');
+      return;
+    }
+
+    const emailSudahTerdaftar = users.some(
+      (u) => u.email.toLowerCase() === formData.email.trim().toLowerCase()
+    );
+
+    if (emailSudahTerdaftar) {
+      setError('Email sudah terdaftar. Silakan gunakan email lain atau masuk ke akun Anda.');
       return;
     }
 
