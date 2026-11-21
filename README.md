@@ -36,7 +36,6 @@ Teknologi:
 - Tailwind CSS 3.4: Styling dengan class utilitas (plugin forms dan container-queries)
 - lucide-react 0.441: Kumpulan ikon
 
----
 
 2. Hierarki Folder
 
