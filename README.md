@@ -12,12 +12,7 @@ Prasyarat:
 - Node.js versi 18 atau lebih baru
 
 
-Perintah yang tersedia:
 
-- npm install: Memasang semua library yang tercantum di package.json
-- npm run dev: Menjalankan server pengembangan dengan hot reload
-- npm run build: Membuat versi produksi ke folder dist/
-- npm run preview: Menjalankan hasil build secara lokal untuk dicoba
 
 Akun untuk uji coba:
 
